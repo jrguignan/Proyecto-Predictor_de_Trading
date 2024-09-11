@@ -1,5 +1,5 @@
 <p align="center">
-<img src=".png"  height=400>
+<img src="https://github.com/jrguignan/Proyecto-Predictor_de_Trading/blob/main/images/banner.png"  height=400>
 </p>
 
 
