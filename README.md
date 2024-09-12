@@ -1,4 +1,4 @@
-#Red LSTM para Predecir la Bolsa de Valores
+# Red LSTM para Predecir la Bolsa de Valores
 
 <p align="center">
 <img src="https://github.com/jrguignan/Proyecto-Predictor_de_Trading/blob/main/images/banner.png"  height=400>
