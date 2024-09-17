@@ -9,9 +9,22 @@
 # Índice
 
 * [Standard & Poor's 500](#Standard-&-Poor's-500) 
+
+<p align="center">
+<img src="https://github.com/jrguignan/Proyecto-Predictor_de_Trading/blob/main/images/sp500_c.png"  height=400>
+</p>
+
 * [TESLA, INC.](#TESLA,-INC.) 
+
+<p align="center">
+<img src="https://github.com/jrguignan/Proyecto-Predictor_de_Trading/blob/main/images/tesla_c.png"  height=400>
+</p>
+
 * [APPLE COMPUTER INC](#APPLE-COMPUTER-INC) 
 
+<p align="center">
+<img src="https://github.com/jrguignan/Proyecto-Predictor_de_Trading/blob/main/images/apple_c.png"  height=400>
+</p>
 
 * [Autor](#Autor)
 
