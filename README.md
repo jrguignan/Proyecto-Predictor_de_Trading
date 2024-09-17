@@ -8,12 +8,15 @@
 
 # Índice
 
+
+* [Introducción](#Introducción) 
 * [Standard & Poor's 500](#Standard-&-Poor's-500) 
 * [TESLA, INC.](#TESLA,-INC.) 
 * [APPLE COMPUTER INC](#APPLE-COMPUTER-INC) 
 * [Autor](#Autor)
 
 
+# Introducción
 
 
 # [Standard & Poor's 500](https://github.com/jrguignan/Proyecto-Predictor_de_Trading/blob/main/red_LSTM_sp500.ipynb)
@@ -29,6 +32,7 @@
 <img src="https://github.com/jrguignan/Proyecto-Predictor_de_Trading/blob/main/images/tesla_c.png"  height=400>
 </p>
 
+<br>[Volver al Índice](#Índice)
 
 # [APPLE COMPUTER INC](https://github.com/jrguignan/Proyecto-Predictor_de_Trading/blob/main/red_LSTM_apple.ipynb)
 
