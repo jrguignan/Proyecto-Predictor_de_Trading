@@ -16,20 +16,21 @@
 
 
 
-# Standard & Poor's 500
+# [Standard & Poor's 500](https://github.com/jrguignan/Proyecto-Predictor_de_Trading/blob/main/red_LSTM_sp500.ipynb)
+
 <p align="center">
 <img src="https://github.com/jrguignan/Proyecto-Predictor_de_Trading/blob/main/images/sp500_c.png"  height=400>
 </p>
 
 
-# TESLA, INC.
+# [TESLA, INC.](https://github.com/jrguignan/Proyecto-Predictor_de_Trading/blob/main/red_LSTM_tesla.ipynb)
 
 <p align="center">
 <img src="https://github.com/jrguignan/Proyecto-Predictor_de_Trading/blob/main/images/tesla_c.png"  height=400>
 </p>
 
 
-# APPLE COMPUTER INC
+# [APPLE COMPUTER INC](https://github.com/jrguignan/Proyecto-Predictor_de_Trading/blob/main/red_LSTM_apple.ipynb)
 
 <p align="center">
 <img src="https://github.com/jrguignan/Proyecto-Predictor_de_Trading/blob/main/images/apple_c.png"  height=400>
