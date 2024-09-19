@@ -11,6 +11,7 @@
 
 * [Introducción](#Introducción) 
   * [Explicación del Código](#Explicación-del-Código) 
+* [Datasets](#Datasets) 
 * [Standard & Poor's 500](#Standard-&-Poor's-500) 
 * [TESLA, INC.](#TESLA,-INC.) 
 * [APPLE COMPUTER INC](#APPLE-COMPUTER-INC) 
@@ -30,6 +31,7 @@ Evitan el problema de desvanecimiento del gradiente: Gracias a su arquitectura i
 
 En resumen, el uso de una LSTM mejora la precisión del modelo al capturar patrones temporales en los datos históricos, lo que es fundamental para la predicción de valores en mercados financieros, donde los precios pasados influyen en los futuros.
 
+<br>[Volver al Índice](#Índice)
 
 ## Explicación del Código
 División de Datos: Los datos se dividen en dos conjuntos: uno de entrenamiento y otro de validación, utilizando solo la columna del precio de cierre.
@@ -45,6 +47,9 @@ Entrenamiento: El modelo es entrenado durante 20 épocas con un tamaño de lote 
 Predicción: Después de entrenar, utilizamos el conjunto de validación para realizar las predicciones y desescalamos los valores para obtener los precios originales.
 
 Este enfoque de predicción puede ser una herramienta valiosa para tomar decisiones informadas en el mercado de valores.
+
+# [Datasets]()
+
 
 
 # [Standard & Poor's 500](https://github.com/jrguignan/Proyecto-Predictor_de_Trading/blob/main/red_LSTM_sp500.ipynb)
