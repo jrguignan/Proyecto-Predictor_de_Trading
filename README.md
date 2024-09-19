@@ -10,6 +10,7 @@
 
 
 * [Introducción](#Introducción) 
+  * [Explicación del Código](#Explicación-del-Código) 
 * [Standard & Poor's 500](#Standard-&-Poor's-500) 
 * [TESLA, INC.](#TESLA,-INC.) 
 * [APPLE COMPUTER INC](#APPLE-COMPUTER-INC) 
@@ -17,6 +18,33 @@
 
 
 # Introducción
+
+En este proyecto se ha desarrollado un modelo de predicción de precios de cierre tres activos financieros, utilizando una red neuronal de tipo LSTM (Long Short-Term Memory). Las LSTM son especialmente efectivas para capturar patrones en datos secuenciales, lo que las hace ideales para tareas como la predicción de series temporales. En este caso, hemos aplicado este modelo para predecir los valores futuros de cierre de un activo del índice S&P 500, basándonos en los precios históricos.
+
+Beneficios de usar LSTM:
+Memoria a largo plazo: A diferencia de las redes neuronales simples, las LSTM pueden "recordar" patrones en los datos a lo largo del tiempo. Esto es útil en series temporales, donde los valores pasados pueden influir en los futuros.
+
+Captura de dependencias temporales: Las LSTM son capaces de modelar relaciones complejas a lo largo de períodos largos, lo que les permite reconocer tendencias o comportamientos recurrentes en los datos de mercado.
+
+Evitan el problema de desvanecimiento del gradiente: Gracias a su arquitectura interna, las LSTM pueden mantener información relevante durante largos intervalos de tiempo, superando problemas que otros modelos tradicionales, como las redes neuronales recurrentes simples (RNN), no pueden manejar eficientemente.
+
+En resumen, el uso de una LSTM mejora la precisión del modelo al capturar patrones temporales en los datos históricos, lo que es fundamental para la predicción de valores en mercados financieros, donde los precios pasados influyen en los futuros.
+
+
+## Explicación del Código
+División de Datos: Los datos se dividen en dos conjuntos: uno de entrenamiento y otro de validación, utilizando solo la columna del precio de cierre.
+
+Escalado: Utilizamos MinMaxScaler para escalar los datos entre 0 y 1, lo que mejora la capacidad de aprendizaje del modelo.
+
+Ventana de Tiempo: Se crean secuencias de 60 días como entrada (X_train) y se predice el valor del día siguiente como salida (Y_train).
+
+Red LSTM: Definimos un modelo secuencial con una capa LSTM de 50 neuronas y una capa densa de salida que predice un único valor (el precio de cierre del día siguiente).
+
+Entrenamiento: El modelo es entrenado durante 20 épocas con un tamaño de lote de 32.
+
+Predicción: Después de entrenar, utilizamos el conjunto de validación para realizar las predicciones y desescalamos los valores para obtener los precios originales.
+
+Este enfoque de predicción puede ser una herramienta valiosa para tomar decisiones informadas en el mercado de valores.
 
 
 # [Standard & Poor's 500](https://github.com/jrguignan/Proyecto-Predictor_de_Trading/blob/main/red_LSTM_sp500.ipynb)
