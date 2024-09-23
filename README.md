@@ -48,8 +48,12 @@ Predicción: Después de entrenar, utilizamos el conjunto de validación para re
 
 Este enfoque de predicción puede ser una herramienta valiosa para tomar decisiones informadas en el mercado de valores.
 
-# [Datasets]()
+# [Datasets](https://github.com/jrguignan/Proyecto-Predictor_de_Trading/tree/main/datasets)
 
+En esta [carpeta](https://github.com/jrguignan/Proyecto-Predictor_de_Trading/tree/main/datasets)
+ se encuentran los datasets utilizados en formato csv. Actualizados hasta septiembre 2024. 
+
+Los archivos .ipynb se utiliza la libreria yfinance para tener los datos actualizados de los activos financieros.
 
 
 # [Standard & Poor's 500](https://github.com/jrguignan/Proyecto-Predictor_de_Trading/blob/main/red_LSTM_sp500.ipynb)
@@ -58,6 +62,7 @@ Este enfoque de predicción puede ser una herramienta valiosa para tomar decisio
 <img src="https://github.com/jrguignan/Proyecto-Predictor_de_Trading/blob/main/images/sp500_c.png"  height=400>
 </p>
 
+<br>[Volver al Índice](#Índice)
 
 # [TESLA, INC.](https://github.com/jrguignan/Proyecto-Predictor_de_Trading/blob/main/red_LSTM_tesla.ipynb)
 
